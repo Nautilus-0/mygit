@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\bin\Debug\net8.0-windows\calcu.exe
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\bin\Debug\net8.0-windows\calcu.deps.json
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\bin\Debug\net8.0-windows\calcu.runtimeconfig.json
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\bin\Debug\net8.0-windows\calcu.dll
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\bin\Debug\net8.0-windows\calcu.pdb
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\calcu.Form1.resources
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\calcu.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\calcu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\calcu.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\calcu.AssemblyInfo.cs
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\calcu.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\calcu.dll
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\refint\calcu.dll
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\calcu.pdb
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\calcu.genruntimeconfig.cache
+C:\Users\User\Desktop\Mota\gitjub\calcu\calcu\obj\Debug\net8.0-windows\ref\calcu.dll
