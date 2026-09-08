@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\bin\Debug\net8.0-windows\Temporizador.exe
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\bin\Debug\net8.0-windows\Temporizador.deps.json
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\bin\Debug\net8.0-windows\Temporizador.runtimeconfig.json
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\bin\Debug\net8.0-windows\Temporizador.dll
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\bin\Debug\net8.0-windows\Temporizador.pdb
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\Temporizador.Form1.resources
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\Temporizador.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\Temporizador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\Temporizador.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\Temporizador.AssemblyInfo.cs
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\Temporizador.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\Temporizador.dll
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\refint\Temporizador.dll
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\Temporizador.pdb
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\Temporizador.genruntimeconfig.cache
+C:\Users\User\Desktop\Mota\gitjub\Temporizador\Temporizador\obj\Debug\net8.0-windows\ref\Temporizador.dll
