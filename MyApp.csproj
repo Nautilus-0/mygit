@@ -48,6 +48,12 @@
   <ItemGroup>
     <None Include="docker-compose.yml" />
     <Compile Include="Datos.cs" />
+    <Compile Include="fmrInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmrInformacion.Designer.cs">
+      <DependentUpon>fmrInformacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fmrInformacion.resx">
+      <DependentUpon>fmrInformacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

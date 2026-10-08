@@ -4,28 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace MyApp
 {
     internal class Datos
     {
-        SqlConnection conexion;
+    
         string cadenaConexion = "Server=localhost;Integrated Security=false;" +
             "User=sa;password=l12345678.;initial catalog=Agenda";
 
-        private void conexionOpen()
+        public Datos() 
+        {
+            
+        }
+        private SqlConnection conexionOpen()
         {
             try
             {
-                conexion = new SqlConnection(cadenaConexion);
-                conexion.Open();
+               SqlConnection conexion = new SqlConnection(cadenaConexion);
+               conexion.Open();
+                return conexion;
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error: " + ex.ToString());
+                return null;
             }
         }
-        private void conexionClose()
+        private void conexionClose(SqlConnection conexion)
         {
             try { conexion.Close(); }
             catch (Exception ex) { Console.WriteLine(ex.ToString()); }
@@ -35,19 +42,35 @@ namespace MyApp
             string telefono,string correo)
         {
             try {
-                conexionOpen();
+                SqlConnection conectar=conexionOpen();
                 string comando = "Insert Into Datos(nombre,paterno,materno,telefono," +
                     "correo)Values('" + nombre +"','"+ paterno +
                     "','"+ materno +"','"+ telefono +"','"+ correo +"')";
-                SqlCommand sqlCommand = new SqlCommand(comando, conexion);
+                SqlCommand sqlCommand = new SqlCommand(comando, conectar);
                 sqlCommand.ExecuteNonQuery();
-                conexionClose();
+                conexionClose(conectar);
                 return true;
             }
             catch (Exception ex) {
                 Console.WriteLine("Error: " + ex.ToString());
                 return false;
             }            
+        }
+
+        public DataSet Informacion(string comando)
+        {
+            DataSet ds= new DataSet();
+            try {
+                SqlConnection conecta = conexionOpen();
+                SqlDataAdapter da =new  SqlDataAdapter(comando, conecta);
+                da.Fill(ds);
+                conexionClose(conecta);
+                return ds;
+            }
+            catch (Exception ex) {
+                Console.WriteLine("Error: " + ex.ToString());
+                return null;
+            }
         }
     }
 }
