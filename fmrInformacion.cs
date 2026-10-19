@@ -19,24 +19,47 @@ namespace MyApp
             InitializeComponent();
         }
 
-        private void fmrInformacion_Load(object sender, EventArgs e)
+        private void ActualizarGrid()
         {
             datos = new Datos();
             DataSet ds = datos.Informacion("Select * from Datos");
+
             if (ds != null)
-            {
+            {               
+                dgvInformacion.AutoGenerateColumns = false;
+
+                dgvInformacion.Columns[0].DataPropertyName = "id";
+                dgvInformacion.Columns[1].DataPropertyName = "nombre";
+                dgvInformacion.Columns[2].DataPropertyName = "paterno";
+                dgvInformacion.Columns[3].DataPropertyName = "materno";
+                dgvInformacion.Columns[4].DataPropertyName = "telefono";
+                dgvInformacion.Columns[5].DataPropertyName = "correo";
+
                 dgvInformacion.DataSource = ds.Tables[0];
+
             }
             else
-                MessageBox.Show("Error al cargar informacion", "Sistema",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            {
+                MessageBox.Show("No se pudo obtener la información de la base de datos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+           
 
+        }
+
+        private void fmrInformacion_Load(object sender, EventArgs e)
+        {
+            ActualizarGrid();
         }
 
         private void btnInsertar_Click(object sender, EventArgs e)
         {
             frmAgregar agregar = new frmAgregar();
             agregar.Show();
+        }
+
+        private void fmrInformacion_Activated(object sender, EventArgs e)
+        {
+            ActualizarGrid();
         }
     }
 }
